@@ -231,3 +231,15 @@ Refresh osTicket site in your browser
 </p>
 <br />
 
+<p>
+<img src="https://imgur.com/kkFd3B4.png" height="80%" width="80%" alt="osTicket Database Setup"/>
+</p>
+<p>
+<b>Enter the database information that was entered into HeidiSQL, then click Install Now to finish the osTicket setup   </b>
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/i7DTg9e.png" height="80%" width="80%" alt="osTicket Database Setup"/>
+</p>
+
