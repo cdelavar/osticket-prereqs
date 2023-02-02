@@ -43,7 +43,7 @@ This is a step-by-step guide on the prerequisites and installation of the open-s
 <img src="https://imgur.com/6FGWbiA.png" height="80%" width="80%" alt="IIS"/>
 </p>
 <p>
-Check the box for Internet Information Services
+<b>Check the box for Internet Information Services</b>
 </p>
 <br />
 
@@ -51,10 +51,11 @@ Check the box for Internet Information Services
 <img src="https://imgur.com/UGvDLXo.png" height="80%" width="80%" alt="CGI"/>
 </p>
 <p>
-Click the drop down menu for World Wide Web Services <br />
+<b>Click the drop down menu for World Wide Web Services <br />
    - Click the drop down menu for Application Development Features <br />
    - Check the box for CGI, then click ok <br />
    CGI lets us install PHP manager, which we need on our computer because osTicket runs on PHP <br />
+</b>
 </p>
 <br />
 
@@ -62,7 +63,7 @@ Click the drop down menu for World Wide Web Services <br />
 <img src="https://imgur.com/VguOjw8.png" height="80%" width="80%" alt="IIS Up and Running"/>
 </p>
 <p>
-If loaded and working, you'll see Internet Information Services webpage running on local host 127.0.0.1
+<b>If loaded and working, you'll see Internet Information Services webpage running on local host 127.0.0.1</b>
 </p>
 <br />
 
@@ -70,7 +71,7 @@ If loaded and working, you'll see Internet Information Services webpage running 
 <img src="https://imgur.com/VyUG59G.png" height="80%" width="80%" alt="Download PHP Manager"/>
 </p>
 <p>
-Download and install PHP Manager for IIS - version 1.5.0 from the iis.net website
+<b>Download and install PHP Manager for IIS - version 1.5.0 from the iis.net website</b>
 </p>
 <br />
 
@@ -78,9 +79,10 @@ Download and install PHP Manager for IIS - version 1.5.0 from the iis.net websit
 <img src="https://imgur.com/G8VRq8i.png" height="80%" width="80%" alt="Download URL Rewrite Module"/>
 </p>
 <p>
-Download the URL Rewrite Module for IIS 
+<b>Download the URL Rewrite Module for IIS
 <br /> 
 osTicket config file needs this to process URL's
+</b>
 </p>
 <br />
 
@@ -88,7 +90,7 @@ osTicket config file needs this to process URL's
 <img src="https://imgur.com/w4BiHfy.png" height="80%" width="80%" alt="PHP Directory"/>
 </p>
 <p>
-Create a directory for PHP on the local hard drive C:\PHP
+<b>Create a directory for PHP on the local hard drive C:\PHP</b>
 </p>
 <br />
 
@@ -96,7 +98,7 @@ Create a directory for PHP on the local hard drive C:\PHP
 <img src="https://imgur.com/hnZ0j5v.png" height="80%" width="80%" alt="Download PHP and VC"/>
 </p>
 <p>
-Download and install PHP and the Visual C++ Redistributable for Visual Studio 2015-2019
+<b>Download and install PHP and the Visual C++ Redistributable for Visual Studio 2015-2019</b>
 </p>
 <br />
 
@@ -104,7 +106,7 @@ Download and install PHP and the Visual C++ Redistributable for Visual Studio 20
 <img src="https://imgur.com/mquDFnG.png" height="80%" width="80%" alt="Download MySQL"/>
 </p>
 <p>
-Download and install MySQL Server - (mysql-installer-community-8.0.32.0.msi)
+<b>Download and install MySQL Server - (mysql-installer-community-8.0.32.0.msi)</b>
 </p>
 <br />
 
@@ -112,9 +114,10 @@ Download and install MySQL Server - (mysql-installer-community-8.0.32.0.msi)
 <img src="https://imgur.com/9keJ1ub.png" height="80%" width="80%" alt="IIS Admin"/>
 </p>
 <p>
-Click the windows icon, type in IIS and run as administrator with Internet Information Services Manager
+<b>Click the windows icon, type in IIS and run as administrator with Internet Information Services Manager
 <br />
   -click on PHP Manager
+</b>
 </p>
 <br />
 
@@ -122,7 +125,7 @@ Click the windows icon, type in IIS and run as administrator with Internet Infor
 <img src="https://imgur.com/bg0lhHj.png" height="80%" width="80%" alt="Register PHP"/>
 </p>
 <p>
-Click on Register new PHP version, and navigate to C:\PHP\php-cgi.exe in order to register, then reload IIS
+<b>Click on Register new PHP version, and navigate to C:\PHP\php-cgi.exe in order to register, then reload IIS</b>
 </p>
 <br />
 
@@ -130,7 +133,7 @@ Click on Register new PHP version, and navigate to C:\PHP\php-cgi.exe in order t
 <img src="https://imgur.com/F156lSP.png" height="80%" width="80%" alt="Download osTicket"/>
 </p>
 <p>
-Download and install osTicket
+<b>Download and install osTicket</b>
 </p>
 <br />
 
@@ -146,13 +149,14 @@ Download and install osTicket
 <img src="https://imgur.com/4KN7GPQ.png" height="80%" width="80%" alt="Enable Extensions"/>
 </p>
 <p>
-Go to sites - default - osTicket, and n the right, click Browse *:80
+<b>Go to sites - default - osTicket, and n the right, click Browse *:80
 <br />
 Click Enable or disable an extension <br />
 Enable: php_imap.dll <br />
 Enable: php_intl.dll <br />
 Enable: php_opcache.dll <br />
 Refresh osTicket site in your browser
+</b>
 </p>
 <br />
 
