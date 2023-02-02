@@ -175,5 +175,27 @@ Refresh osTicket site in your browser
 </p>
 <br />
 
+<p>
+<img src="https://imgur.com/mXEqcph.png" height="80%" width="80%" alt="Change Config File"/>
+</p>
+<p>
+<b>Navigate to C:\inetpub\wwwroot\osTicket\include and rename the ost-sampleconfig.php to ost-config.php </b>
+</p>
+<br />
 
+<p>
+<img src="https://imgur.com/ExYvsPD.png" height="80%" width="80%" alt="Disable Inheritance"/>
+</p>
+<p>
+<b>Right click the ost-config.php file and select properties, then to the security tab and click Advanced. Click the Disable inheretance button and remove all inhereted permissions from the file   </b>
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/d8UjKA8.png" height="80%" width="80%" alt="Add Permissions"/>
+</p>
+<p>
+<b>Add full control permissions for everyone for the ost-config.php. Go to file properties - Advanced - Add, then click Select a principle. In the Select User, Computer, Service Account, or Group panel, type Everyone in the Enter the object name to select box, then click ok. Apply the changes to the file      </b>
+</p>
+<br />
 
