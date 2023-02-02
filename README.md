@@ -35,7 +35,7 @@ This is a step-by-step guide on the prerequisites and installation of the open-s
 <img src="https://imgur.com/4O9BxFh.png" height="80%" width="80%" alt="Control Panel"/>
 </p>
 <p>
-Navigate to Control Panel - Programs - Turn Windows features on or off
+<b>Navigate to Control Panel - Programs - Turn Windows features on or off</b>
 </p>
 <br />
 
@@ -122,7 +122,15 @@ Click the windows icon, type in IIS and run as administrator with Internet Infor
 <img src="https://imgur.com/bg0lhHj.png" height="80%" width="80%" alt="Register PHP"/>
 </p>
 <p>
-Click on Register new PHP version, and navigate to C:\PHP\php-cgi.exe in order to register
+Click on Register new PHP version, and navigate to C:\PHP\php-cgi.exe in order to register, then reload IIS
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/F156lSP.png" height="80%" width="80%" alt="Download osTicket"/>
+</p>
+<p>
+Download and install osTicket
 </p>
 <br />
 
@@ -130,7 +138,7 @@ Click on Register new PHP version, and navigate to C:\PHP\php-cgi.exe in order t
 <img src="https://imgur.com/1JnpcrU.png" height="80%" width="80%" alt="osTicket Folder"/>
 </p>
 <p>
-Copy the upload folder and copy to the C:\inetpub\wwwroot folder, then rename the folder to osTicket
+<b>Extract and copy the upload folder to the C:\inetpub\wwwroot folder, then rename the folder to osTicket. Reload IIS.</b>
 </p>
 <br />
 
@@ -138,7 +146,13 @@ Copy the upload folder and copy to the C:\inetpub\wwwroot folder, then rename th
 <img src="https://imgur.com/4KN7GPQ.png" height="80%" width="80%" alt="Enable Extensions"/>
 </p>
 <p>
-Lorem ipsum
+Go to sites - default - osTicket, and n the right, click Browse *:80
+<br />
+Click Enable or disable an extension <br />
+Enable: php_imap.dll <br />
+Enable: php_intl.dll <br />
+Enable: php_opcache.dll <br />
+Refresh osTicket site in your browser
 </p>
 <br />
 
