@@ -133,7 +133,7 @@ osTicket config file needs this to process URL's
 <img src="https://imgur.com/F156lSP.png" height="80%" width="80%" alt="Download osTicket"/>
 </p>
 <p>
-<b>Download and install osTicket</b>
+<b>Download osTicket</b>
 </p>
 <br />
 
@@ -146,12 +146,27 @@ osTicket config file needs this to process URL's
 <br />
 
 <p>
+<img src="https://imgur.com/CYjgqH0.png" height="80%" width="80%" alt="osTicket Setup"/>
+</p>
+<p>
+<b>Go to sites - default - osTicket, and on the right, click Browse *:80
+<br />
+
+<p>
+<img src="https://imgur.com/FgZ8Jkr.png" height="80%" width="80%" alt="osTicket Extensions"/>
+</p>
+<p>
+<b>The osTicket Setup screen will open in the localhost browser, notice that some PHP extensions are not enabled </b>
+</p>
+<br />
+
+<p>
 <img src="https://imgur.com/4KN7GPQ.png" height="80%" width="80%" alt="Enable Extensions"/>
 </p>
 <p>
-<b>Go to sites - default - osTicket, and n the right, click Browse *:80
-<br />
-Click Enable or disable an extension <br />
+<b>
+Go back to PHP Manager and click on Enable or disable an extension: <br />
+Enable: php_gd.dll <br />
 Enable: php_imap.dll <br />
 Enable: php_intl.dll <br />
 Enable: php_opcache.dll <br />
