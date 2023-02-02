@@ -240,6 +240,17 @@ Refresh osTicket site in your browser
 <br />
 
 <p>
-<img src="https://imgur.com/i7DTg9e.png" height="80%" width="80%" alt="osTicket Database Setup"/>
+<img src="https://imgur.com/i7DTg9e.png" height="80%" width="80%" alt="osTicket Setup Finish"/>
 </p>
+
+<p>
+<img src="https://imgur.com/5gRF6DF.png" height="80%" width="80%" alt="Cleanup"/>
+</p>
+<p>
+<b>Delete: C:\inetpub\wwwroot\osTicket\setup   <br />
+   Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+</b>
+
+</p>
+<br />
 
