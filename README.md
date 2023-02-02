@@ -22,10 +22,10 @@ This is a step-by-step guide on the prerequisites and installation of the open-s
 
 <h2>List of Prerequisites</h2>
 
-- IIS (Internet Information Services) with CGI
+- IIS (Internet Information Services) with CGI (Common Gateway Interface)
 - PHP Manager and URL Rewrite Module
 - PHP and Visual C++ Redistributable for Visual Studio 2015-2019
-- MySQL Server 
+- MySQL Server
 - osTicket
 - Heidi SQL
 
@@ -98,7 +98,7 @@ osTicket config file needs this to process URL's
 <img src="https://imgur.com/hnZ0j5v.png" height="80%" width="80%" alt="Download PHP and VC"/>
 </p>
 <p>
-<b>Download and install PHP and the Visual C++ Redistributable for Visual Studio 2015-2019</b>
+<b>Download PHP and unzip the contents into C:\PHP, then download and install Visual C++ Redistributable for Visual Studio 2015-2019</b>
 </p>
 <br />
 
@@ -106,7 +106,7 @@ osTicket config file needs this to process URL's
 <img src="https://imgur.com/mquDFnG.png" height="80%" width="80%" alt="Download MySQL"/>
 </p>
 <p>
-<b>Download and install MySQL Server - (mysql-installer-community-8.0.32.0.msi)</b>
+<b>Download and install MySQL Server (choose setup type Server Only) - (mysql-installer-community-8.0.32.0.msi)</b>
 </p>
 <br />
 
