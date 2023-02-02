@@ -200,6 +200,30 @@ Refresh osTicket site in your browser
 <br />
 
 <p>
+<img src="https://imgur.com/xQjiQvW.png" height="80%" width="80%" alt="HeidiSQL"/>
+</p>
+<p>
+<b>Download and Install HeidiSQL   </b>
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/5Vnb6Ow.png" height="80%" width="80%" alt="HeidiSQL New Session"/>
+</p>
+<p>
+<b>Open HeidiSQL and create a new session, give "User: root" a password, then click Open   </b>
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/UPBaD6c.png" height="80%" width="80%" alt="Create osTicket Database"/>
+</p>
+<p>
+<b>Right click the Unnamed connection - Create new - Database, and name the new database "osTicket"  </b>
+</p>
+<br />
+
+<p>
 <img src="https://imgur.com/J4Hp2Ul.png" height="80%" width="80%" alt="Continue osTicket Setup"/>
 </p>
 <p>
