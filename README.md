@@ -199,3 +199,11 @@ Refresh osTicket site in your browser
 </p>
 <br />
 
+<p>
+<img src="https://imgur.com/J4Hp2Ul.png" height="80%" width="80%" alt="Continue osTicket Setup"/>
+</p>
+<p>
+<b>Continue setting up osTicket in the browser   </b>
+</p>
+<br />
+
